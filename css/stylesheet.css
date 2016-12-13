@@ -52,7 +52,10 @@ a:link {
 
 a:visited {
   color: #f9e42e;
-   /*???下划线*/
+}
+
+a:hover {
+  color: red;
 }
 
 .hero {
@@ -67,6 +70,7 @@ a:visited {
   width: 700px;
   margin: 0px;
   padding: 20px 20px 5px 10px;
+  color: #033048;
 }
 
 .top_content {
@@ -86,15 +90,24 @@ a:visited {
   text-align: justify;
 }
 
-.links { /*不能把read more移到右边*/
-  padding: 10px 0px;
-  text-align: right;
+.top_content p em {
+  float: left;
+  font-size: 35px;
+  font-weight: bold;
 }
+
+.bottom_content p em {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*read more can't move to the right side*/
 
 #right_aside {
   width: 240px;
   justify-content: flex-end;
   padding-top: 20px;
+  color: #033048;
 }
 
 .categories ul {

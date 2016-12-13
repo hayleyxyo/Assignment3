@@ -126,8 +126,9 @@ a:hover {
   text-align: justify;
 }
 
-.learn_more {
+.learn_more a {
   font-weight: bold;
+  color: #033048;
 }
 
 .sign_up {
@@ -168,4 +169,13 @@ footer p {
 i {
   padding: 5px 10px 5px 10px;
   color: white;
+}
+
+.read_more {
+  text-align: right;
+  padding: 20px 0px;
+}
+
+.read_more a {
+  color: black;
 }

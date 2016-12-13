@@ -1,0 +1,156 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.4;
+}
+
+header{
+	text-align: center;
+	background: url(images/header_bg.jpg) no-repeat center;
+	margin: 0px;
+	background-size: cover;
+	padding-bottom: 100px;
+
+}
+
+header h1{
+	margin-top: 0px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 30px;
+	color: white;
+	font-size: 24px;
+	font-weight: 600; /*这个为什么不能显示？*/
+}
+
+header h2 {
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;/*这个为什么不能显示？*/
+}
+
+button {
+	background: #f9e42e;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	border-color: #f9e42e;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	border-style: none;
+
+}
+
+.benefits h2{
+	text-align: left;
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-left: 30px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.benefits {
+	background-color: #f0efef;
+	margin-bottom: 0px;
+}
+
+p {
+	text-align: left;
+	padding-left: 30px;
+	color:#606161;
+	font-size: 13px;
+	margin-bottom: 0px;
+	font-weight: 300;
+}
+
+section ul {
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 50px;
+	color: #606161;
+	font-size: 13px;
+	margin-bottom: 0px;
+
+}
+
+#testimonial {
+	background: url(images/testimonial_bg.jpg) no-repeat center;
+	background-size: cover;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+blockquote {
+	margin: 0px;
+	text-align: center;
+	color: white;
+	padding: 70px 180px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+
+}
+
+section blockquote em {
+	font-weight: 600;
+	font-style: normal;
+
+}
+
+section section{
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: yellow;
+}
+
+section button {
+	border-color: yellow;
+	background-color:  #033048;
+	color:white;
+	font-size: 12px;
+	font-weight: 900;
+	border-radius: 5px;
+}
+
+
+footer {
+	background-color: #121212;
+	text-align: center;
+}
+
+footer h1 {
+	margin: 0px;
+	padding-top: 20px;
+	color: yellow;
+}
+
+footer ul {
+	padding-left: 0px;
+}
+
+footer ul li{
+	display: inline-block;
+	color: white;
+	margin-right: 15px;
+}
+
+footer p {
+	font-size: 9px;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
